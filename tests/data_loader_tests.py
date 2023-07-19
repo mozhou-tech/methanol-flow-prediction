@@ -1,6 +1,6 @@
 import unittest
 
-from src.data_loader import read_flow_speed
+from notebook.data_loader import read_flow_speed
 
 
 class MyTestCase(unittest.TestCase):
