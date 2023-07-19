@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "methanol-flow-prediction"
+version = "0.1.0"
+description = ""
+authors = ["liuyuancheng <tenstone@foxmail.com>"]
+readme = "README.md"
+packages = [{include = "methanol_flow_prediction"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.0.1"
+matplotlib = "^3.7.2"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
